@@ -3,9 +3,22 @@ sphinxembeddedvideos
 
 Embed videos in your Sphinx-generated documentation.
 
+.. code::
+
+   pip install sphinxembeddedvideos
+
 
 Youtube
 -------
+
+Enable the Sphinx extension in your ``conf.py`` file:
+
+.. code:: python
+
+   extensions = [
+       '...',
+       'sphinxembeddedvideos.youtube',
+   ]
 
 This module defines a directive, `youtube`.  It takes a single, required
 argument, a YouTube video ID::
