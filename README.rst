@@ -1,5 +1,11 @@
-sphinxcontrib.youtube
-=====================
+sphinxembeddedvideos
+====================
+
+Embed videos in your Sphinx-generated documentation.
+
+
+Youtube
+-------
 
 This module defines a directive, `youtube`.  It takes a single, required
 argument, a YouTube video ID::
@@ -22,5 +28,3 @@ parameters "aspect", "width", and "height" may optionally be provided::
 
     ..  youtube:: oHg5SJYRHA0
         :height: 200px
-
-..  -*- mode: rst; fill-column: 72 -*-

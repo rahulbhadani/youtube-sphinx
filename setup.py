@@ -12,14 +12,14 @@ videos.
 requires = ['Sphinx>=0.6']
 
 setup(
-    name='sphinxcontrib-youtube',
-    version='1.0',
-    url='http://bitbucket.org/birkenfeld/sphinx-contrib',
-    download_url='http://pypi.python.org/pypi/sphinxcontrib-youtube',
+    name='sphinxembeddedvideos',
+    version='1.0.0',
+    url='https://github.com/Peque/sphinxembeddedvideos',
+    download_url='https://pypi.org/project/sphinxembeddedvideos',
     license='BSD',
     author='Chris Pickel',
     author_email='sfiera@gmail.com',
-    description='Sphinx "youtube" extension',
+    description='Sphinx extension to embed Youtube videos.',
     long_description=long_desc,
     zip_safe=False,
     classifiers=[
@@ -37,5 +37,4 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=['sphinxcontrib'],
 )
