@@ -7,26 +7,36 @@ Embed videos in your Sphinx-generated documentation.
 
    pip install sphinxembeddedvideos
 
+Supported platforms:
 
-Youtube
--------
+- PeerTube (@peertube.social)
+- YouTube
 
-Enable the Sphinx extension in your ``conf.py`` file:
+
+Usage
+-----
+
+Enable the Sphinx extension(s) in your ``conf.py`` file:
 
 .. code:: python
 
    extensions = [
        '...',
+       'sphinxembeddedvideos.peertube',
        'sphinxembeddedvideos.youtube',
    ]
 
-This module defines a directive, `youtube`.  It takes a single, required
-argument, a YouTube video ID::
+You can then use the corresponding directives (`peertube`, `youtube`) to embed
+a video given its ID::
 
-    ..  youtube:: oHg5SJYRHA0
+   .. peertube:: da2e6b0c-d2ed-4799-8bca-bf24ff2abe45
 
-The referenced video will be embedded into HTML output.  By default, the
-embedded video will be sized for 720p content.  To control this, the
+Or, for a YouTube video::
+
+   .. youtube:: oHg5SJYRHA0
+
+The referenced video will be embedded into HTML output. By default, the
+embedded video will be sized for 720p content. To control this, the
 parameters "aspect", "width", and "height" may optionally be provided::
 
     ..  youtube:: oHg5SJYRHA0
