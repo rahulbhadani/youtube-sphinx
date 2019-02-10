@@ -11,7 +11,7 @@ requires = ['Sphinx>=0.6']
 
 setup(
     name='sphinxembeddedvideos',
-    version='1.0.0',
+    version='1.1.0',
     url='https://github.com/Peque/sphinxembeddedvideos',
     download_url='https://pypi.org/project/sphinxembeddedvideos',
     license='BSD',
