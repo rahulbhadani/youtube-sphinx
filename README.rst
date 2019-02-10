@@ -7,7 +7,9 @@ Embed videos in your Sphinx-generated documentation.
 
    pip install sphinxembeddedvideos
 
-Supported platforms:
+
+Supported platforms
+-------------------
 
 - PeerTube (@peertube.social)
 - YouTube
