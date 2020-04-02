@@ -12,13 +12,13 @@ videos.
 requires = ['Sphinx>=0.6']
 
 setup(
-    name='sphinxcontrib-youtube',
+    name='youtube-sphinx',
     version='1.0',
-    url='http://bitbucket.org/birkenfeld/sphinx-contrib',
-    download_url='http://pypi.python.org/pypi/sphinxcontrib-youtube',
+    url='https://github.com/rahulbhadani/youtube-sphinx',
     license='BSD',
     author='Chris Pickel',
     author_email='sfiera@gmail.com',
+    maintainer_email='rahulbhadani@email.arizona.edu'
     description='Sphinx "youtube" extension',
     long_description=long_desc,
     zip_safe=False,
