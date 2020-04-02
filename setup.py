@@ -12,13 +12,14 @@ videos.
 requires = ['Sphinx>=0.6']
 
 setup(
-    name='youtube-sphinx',
+    name='ytsphinx',
     version='1.0',
     url='https://github.com/rahulbhadani/youtube-sphinx',
     license='BSD',
     author='Chris Pickel',
     author_email='sfiera@gmail.com',
-    maintainer_email='rahulbhadani@email.arizona.edu'
+    maintainer='Rahul Bhadani',
+    maintainer_email='rahulbhadani@email.arizona.edu',
     description='Sphinx "youtube" extension',
     long_description=long_desc,
     zip_safe=False,
@@ -37,5 +38,5 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=['sphinxcontrib'],
+    namespace_packages=['ytsphinx'],
 )
