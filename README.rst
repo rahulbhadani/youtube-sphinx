@@ -1,4 +1,4 @@
-sphinxcontrib.youtube
+youtube-sphinx
 =====================
 
 This module defines a directive, `youtube`.  It takes a single, required
