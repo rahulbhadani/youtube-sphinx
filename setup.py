@@ -14,7 +14,7 @@ requires = ['Sphinx>=0.6']
 setup(
     name='ytsphinx',
     version='1.0',
-    url='https://github.com/rahulbhadani/youtube-sphinx',
+    url='https://github.com/rahulbhadani/ytsphinx',
     license='BSD',
     author='Chris Pickel',
     author_email='sfiera@gmail.com',
