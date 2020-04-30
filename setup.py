@@ -13,7 +13,7 @@ requires = ['Sphinx>=0.6']
 
 setup(
     name='ytsphinx',
-    version='1.0',
+    version='1.2.1',
     url='https://github.com/rahulbhadani/ytsphinx',
     license='BSD',
     author='Chris Pickel',
